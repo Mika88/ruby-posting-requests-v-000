@@ -1593,3 +1593,40 @@ Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127
 Processing by SearchesController#search as HTML
   Rendered searches/search.html.erb within layouts/application (8.9ms)
 Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 47.197.192.160 at 2019-04-15 18:44:53 +0000
+Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 244ms (Views: 235.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 47.197.192.160 at 2019-04-15 18:45:02 +0000
+Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/IGqnEiYMAk2XOvE3rJNn+FHpA0yRn6CcJtn8K/wzF8szRIK1aDPoA4nLOOMAQB3MwuL2LjNHzTi/h8LDoB6Q==", "zipcode"=>"33604", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 218ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 47.197.192.160 at 2019-04-15 18:45:17 +0000
+Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eMOM1Zt3HB/uq+3UGMdsMuoG8gp3GdckF5fz+72Z8wY/gr43wQP/4UpKAsiFjaEFSU/CtSEz+qLN3mYYUxwx3g==", "venue_id"=>"4f329d4d19836c91c7e8f5aa", "tip"=>"great place", "commit"=>"Add Tip"}
+Redirected to http://159.89.235.135:56884/tips
+Completed 302 Found in 250ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 47.197.192.160 at 2019-04-15 18:45:17 +0000
+Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 47.197.192.160 at 2019-04-15 18:45:44 +0000
+Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 117ms (Views: 12.0ms | ActiveRecord: 0.0ms)
