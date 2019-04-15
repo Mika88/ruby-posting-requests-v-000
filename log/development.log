@@ -1578,3 +1578,9 @@ Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 47.197.192.160 at 2019-04-15 18:22:06 +0000
 Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/search" for 47.197.192.160 at 2019-04-15 18:22:33 +0000
+Cannot render console from 47.197.192.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g5SxQtnmfUSQZNUji4GKPoNRp2tYnRWd0AWKU4f9wBPE1YOgg5KeujSFOj8Wy0cJIBiX1A63OBsKTB+waXgCyw==", "zipcode"=>"33604", "commit"=>"Search!"}
